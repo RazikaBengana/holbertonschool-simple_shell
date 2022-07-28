@@ -25,9 +25,14 @@ extern char **environ;
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
 
+char *_read(void);
+char **_split(char *line);
+int _execve(char **args);
+void freegrid(char **grid);
+void _printenv(void);
+char *getpath(char *getcmd);
+
 pid_t _getppid(void);
-int main(int ac, char **av);
-int main();
 
 /** STRING FUNCTION */
 

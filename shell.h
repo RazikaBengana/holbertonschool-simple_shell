@@ -3,28 +3,40 @@
 
 #include <stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
 #include <sys/types.h>
+#include <string.h>
 #include <sys/wait.h>
-#include <sys/stat.h>
-#include <errno.h>
-#include <fcntl.h>
+#include <stdlib.h>
 #include <signal.h>
-#include <limits.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <linux/limits.h>
 
-#define BUFSIZE 1024
-#define TOK_BUFSIZE 128
-#define TOK_DELIM " \t\r\n\a"
-
+#define BUFFER 1024
+#define TRUE 1
+#define PROMPT "$ "
+/* error strings */
+#define ERR_MALLOC "Unable to malloc space\n"
+#define ERR_FORK "Unable to fork and create child process\n"
+#define ERR_PATH "No such file or directory\n"
+extern char **environ;
 
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
 
-pid_t _getppid(void);
-int main(int ac, char **av);
+char *_read(void);
+char **_split(char *line);
+int _execve(char **args);
+void freegrid(char **grid);
+void _printenv(void);
+char *getpath(char *getcmd);
 
-/* get_line.c */
-void bring_line(char **lineptr, size_t *n, char *buffer, size_t x);
-ssize_t get_line(char **lineptr, size_t *n, FILE *stream);
+pid_t _getppid(void);
+
+/** STRING FUNCTION */
+
+char *_strtok(char *str, const char *tok);
+unsigned int check_delim(char c, const char *str);
 
 #endif
