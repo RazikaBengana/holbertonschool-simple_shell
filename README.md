@@ -1,13 +1,13 @@
-https://img.shields.io/github/issues/ChongLeangUENG/holbertonschool-simple_shell
-https://img.shields.io/github/forks/ChongLeangUENG/holbertonschool-simple_shell
-https://img.shields.io/github/stars/ChongLeangUENG/holbertonschool-simple_shell
-https://img.shields.io/github/license/ChongLeangUENG/holbertonschool-simple_shell
+![issues](https://img.shields.io/github/issues/ChongLeangUENG/holbertonschool-simple_shell)
+![forks](https://img.shields.io/github/forks/ChongLeangUENG/holbertonschool-simple_shell)
+![stars](https://img.shields.io/github/stars/ChongLeangUENG/holbertonschool-simple_shell)
+![license](https://img.shields.io/github/license/ChongLeangUENG/holbertonschool-simple_shell)
 
-#simple_shell :
-#A simple recreation of the command-line interpreter for the Unix-like operating system
+# simple_shell :
+# a simple recreation of the command-line interpreter for the Unix-like operating system
 
 
-##TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
 - Description
 - Structure of the project (files + Functions used)
@@ -19,7 +19,7 @@ https://img.shields.io/github/license/ChongLeangUENG/holbertonschool-simple_shel
 - License
 
 
-###DESCRIPTION
+### DESCRIPTION
 
 **simple_shell is a command-line interpreter that provides a command line user interface;
 The simple_shell project has been inspired by the real shell written by Ken Thompson in 1971 (the first version of it was called "the Thompson shell").
@@ -100,4 +100,4 @@ BENGANA Razika : (*[Github](https://github.com/Razika-Bengana)*) - (*[Linkedin](
 
 ### LICENSE
 
-*simple _shell* is an open-source project, so the download and usage has no restriction.
+*simple _shell* is an open-source project, so the download and the usage has no restriction.
