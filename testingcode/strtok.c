@@ -21,11 +21,13 @@ int main()
 		ptr = strtok(NULL, delim);
 	}
 
-	for (int i = 0; i < in_size; i++)
+/**	
+ * for (int i = 0; i < in_size; i++)
 	{
 		printf("%d\n", line_buf[i]);
 	}
 	printf("\n");
+*/
 
 	return (0);
 }

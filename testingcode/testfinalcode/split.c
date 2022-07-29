@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
-  * func_split - tokenize the line read
+  * _split - tokenize the line read
   * @line: line to be tokenize
   * Return: array of tokens
   */
 
-char **func_split(char *line)
+char **_split(char *line)
 {
 	int size = 64;
 	int i = 0;

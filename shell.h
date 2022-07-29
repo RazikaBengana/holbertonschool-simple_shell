@@ -24,17 +24,19 @@ extern char **environ;
 
 /* Points to an array of pointers to strings called the "environment" */
 extern char **environ;
-
-char *_read(void);
-char **_split(char *line);
-int _execve(char **args);
-void freegrid(char **grid);
+char *_strcat(char *dest, char *src);
+int _strcmp(char *s1, char *s2);
+int _strlen(char *s);
+int _strncmp(char *s1, char *s2, int n);
+char *func_read(void);
+int func_exec(char **args);
+void free_grid(char **grid);
+char **func_split(char *line);
+char *get_env(char *getcmd);
+char *get_path(char *getcmd);
 void _printenv(void);
-char *getpath(char *getcmd);
-
-pid_t _getppid(void);
-
-/** STRING FUNCTION */
+void ctrl_c(int signal);
+char **split_env(char *path);
 
 char *_strtok(char *str, const char *tok);
 unsigned int check_delim(char c, const char *str);

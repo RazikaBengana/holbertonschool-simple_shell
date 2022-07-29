@@ -23,9 +23,9 @@ char *getpath(char *getcmd)
 	for (i = 0; tab_path[i] != NULL; i++)
 	{
 		newpath[0] = 0;
-		str_cat(newpath, tab_path[i]);
-		str_cat(newpath, "/");
-		str_cat(newpath, getcmd);
+		strncat(newpath, tab_path[i]);
+		strncat(newpath, "/");
+		strncat(newpath, getcmd);
 		if (stat(newpath, &st) == 0)
 		{
 			free(tab_path);

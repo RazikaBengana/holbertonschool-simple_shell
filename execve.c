@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
-  * _execve - function that executes the commands
+  * func_exec - function that executes the commands
   * @args: list of commands
   * Return: 1
   */
 
-int _execve(char **args)
+int func_exec(char **args)
 {
 	pid_t my_pid;
 	char *getcmd = args[0];

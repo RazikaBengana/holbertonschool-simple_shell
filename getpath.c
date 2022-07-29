@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
-  * getpath - gets the path of the command
+  * get_path - gets the path of the command
   * @getcmd: command to find the path
   * Return: path of the command
   */
 
-char *getpath(char *getcmd)
+char *get_path(char *getcmd)
 {
 	struct stat st;
 	int i;

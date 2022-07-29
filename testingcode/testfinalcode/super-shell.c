@@ -20,12 +20,12 @@ int main(void)
 			write(1, "#simple_shell$ ", 9);
 
 		line = _read();
-		if (line == NULL || (_strcmp(line, "exit") == 0))
+		if (line == NULL || (str_cmp(line, "exit") == 0))
 		{
 			free (line);
 			return (0);
 		}
-		else if (_strcmp(line, "env") == 0)
+		else if (str_cmp(line, "env") == 0)
 		{
 			_printenv();
 			free(line);
