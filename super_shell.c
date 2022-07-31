@@ -17,7 +17,7 @@ int main(void)
 		status = isatty(0);
 
 		if (status == 1)
-			write(1, "#cisfun$ ", 9);
+			write(1, "$ ", 2);
 
 		line = func_read();
 		if (line == NULL || (_strcmp(line, "exit") == 0))
