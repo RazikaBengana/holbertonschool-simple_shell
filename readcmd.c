@@ -15,7 +15,7 @@ char *func_read(void)
 	if (len == -1)
 	{
 		free(line);
-		exit(1);
+		exit(0);
 	}
 	if (line[len - 1] == '\n' && line[1] != '\0')
 		line[len - 1] = '\0';
