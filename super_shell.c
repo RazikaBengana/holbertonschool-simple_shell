@@ -41,9 +41,9 @@ int main(void)
 		}
 		if (line[0] != '\n' || line[1] != '\0')
 			status = func_exec(args);
-		free(line[]);
 		free(line);
 		free(args);
 	}
+	free(line);
 	return (0);
 }
