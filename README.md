@@ -1,8 +1,11 @@
+![Linux](https://cdn.comparitech.com/wp-content/uploads/2018/08/Linux-Shell-Getting-Started-1.jpg)
 ![issues](https://img.shields.io/github/issues/ChongLeangUENG/holbertonschool-simple_shell)
 ![forks](https://img.shields.io/github/forks/ChongLeangUENG/holbertonschool-simple_shell)
 ![stars](https://img.shields.io/github/stars/ChongLeangUENG/holbertonschool-simple_shell)
 ![license](https://img.shields.io/github/license/ChongLeangUENG/holbertonschool-simple_shell)
-
+![Ubuntu](https://img.shields.io/badge/-Ubuntu%2020.04.4-orange)
+![C language](https://img.shields.io/badge/-C%20language-yellow)
+![Vim](https://img.shields.io/badge/-Vim-yellowgreen)
 
 # simple_shell :
 # a simple recreation of the command-line interpreter for the Unix-like operating system
@@ -28,7 +31,6 @@ __*simple_shell*__ is a command-line interpreter that provides a command line us
 The simple_shell project has been inspired by the real shell written by __*Ken Thompson*__ in 1971 (the first version of it was called "the Thompson shell").
 
 It controls the execution of the system using shell scripts, and allows users to do multiple limited tasks. All users interact with this simple_shell by using a terminal emulator.
-
 
 The goal of this project was to make us understand how the shell works by rewriting our own version.
 
@@ -64,33 +66,33 @@ You can see below a list of all functions and system calls allowed for our proje
 - ``chdir`` (man 2 chdir)
 - ``close`` (man 2 close)
 - ``closedir`` (man 3 closedir)
-- ``execve`` (man 2 execve)
-- ``exit`` (man 3 exit)
+- ``execve`` (man 2 execve) -> (https://img.shields.io/badge/-used-red)
+- ``exit`` (man 3 exit) -> (https://img.shields.io/badge/-used-red)
 - ``_exit`` (man 2 _exit)
 - ``fflush`` (man 3 fflush)
-- ``fork`` (man 2 fork)
-- ``free`` (man 3 free)
+- ``fork`` (man 2 fork) -> (https://img.shields.io/badge/-used-red)
+- ``free`` (man 3 free) -> (https://img.shields.io/badge/-used-red)
 - ``getcwd`` (man 3 getcwd)
-- ``getline`` (man 3 getline)
+- ``getline`` (man 3 getline) -> (https://img.shields.io/badge/-used-red)
 - ``getpid`` (man 2 getpid)
-- ``isatty`` (man 3 isatty)
+- ``isatty`` (man 3 isatty) -> (https://img.shields.io/badge/-used-red)
 - ``kill`` (man 2 kill)
-- ``malloc`` (man 3 malloc)
+- ``malloc`` (man 3 malloc) -> (https://img.shields.io/badge/-used-red)
 - ``open`` (man 2 open)
 - ``opendir`` (man 3 opendir)
-- ``perror`` (man 3 perror)
+- ``perror`` (man 3 perror) -> (https://img.shields.io/badge/-used-red)
 - ``read`` (man 2 read)
 - ``readdir`` (man 3 readdir)
-- ``signal`` (man 2 signal)
+- ``signal`` (man 2 signal) -> (https://img.shields.io/badge/-used-red)
 - ``stat`` (__xstat) (man 2 stat)
 - ``lstat`` (__lxstat) (man 2 lstat)
 - ``fstat`` (__fxstat) (man 2 fstat)
-- ``strtok`` (man 3 strtok)
-- ``wait`` (man 2 wait)
+- ``strtok`` (man 3 strtok) -> (https://img.shields.io/badge/-used-red)
+- ``wait`` (man 2 wait) -> (https://img.shields.io/badge/-used-red)
 - ``waitpid`` (man 2 waitpid)
 - ``wait3`` (man 2 wait3)
 - ``wait4`` (man 2 wait4)
-- ``write`` (man 2 write)
+- ``write`` (man 2 write) -> (https://img.shields.io/badge/-used-red)
 
 ***
 
