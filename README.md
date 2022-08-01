@@ -41,7 +41,7 @@ The goal of this project was to make us understand how the shell works by rewrit
 - __*README.md*__ : Informations about this repository
 - __*AUTHORS*__ : contributors to this repository
 - __*man_1_simple_shell*__ : Manual page for the simple_shell
-- __*shell.h*__ : header file including all the prototypes functions used
+- __*shell.h*__ : header file including all the prototypes of functions used
 - __*execve.c*__ :
 - __*freegrid.c*__ :
 - __*getenv.c*__ :
@@ -55,6 +55,8 @@ The goal of this project was to make us understand how the shell works by rewrit
 - __*struse.c*__ :
 - __*super_shell.c*__ :
 
+For our codes, we used the Betty style. For more information, see [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+
 ***
 
 ### FUNCTIONALITY
@@ -66,39 +68,39 @@ You can see below a list of all functions and system calls allowed for our proje
 - ``chdir`` (man 2 chdir)
 - ``close`` (man 2 close)
 - ``closedir`` (man 3 closedir)
-- ``execve`` (man 2 execve) -> (https://img.shields.io/badge/-used-red)
-- ``exit`` (man 3 exit) -> (https://img.shields.io/badge/-used-red)
+- ``execve`` (man 2 execve) ![used](https://img.shields.io/badge/-used-red)
+- ``exit`` (man 3 exit) ![used](https://img.shields.io/badge/-used-red)
 - ``_exit`` (man 2 _exit)
 - ``fflush`` (man 3 fflush)
-- ``fork`` (man 2 fork) -> (https://img.shields.io/badge/-used-red)
-- ``free`` (man 3 free) -> (https://img.shields.io/badge/-used-red)
+- ``fork`` (man 2 fork) ![used](https://img.shields.io/badge/-used-red)
+- ``free`` (man 3 free) ![used](https://img.shields.io/badge/-used-red)
 - ``getcwd`` (man 3 getcwd)
-- ``getline`` (man 3 getline) -> (https://img.shields.io/badge/-used-red)
+- ``getline`` (man 3 getline) ![used](https://img.shields.io/badge/-used-red)
 - ``getpid`` (man 2 getpid)
-- ``isatty`` (man 3 isatty) -> (https://img.shields.io/badge/-used-red)
+- ``isatty`` (man 3 isatty) ![used](https://img.shields.io/badge/-used-red)
 - ``kill`` (man 2 kill)
-- ``malloc`` (man 3 malloc) -> (https://img.shields.io/badge/-used-red)
+- ``malloc`` (man 3 malloc) ![used](https://img.shields.io/badge/-used-red)
 - ``open`` (man 2 open)
 - ``opendir`` (man 3 opendir)
-- ``perror`` (man 3 perror) -> (https://img.shields.io/badge/-used-red)
+- ``perror`` (man 3 perror) ![used](https://img.shields.io/badge/-used-red)
 - ``read`` (man 2 read)
 - ``readdir`` (man 3 readdir)
-- ``signal`` (man 2 signal) -> (https://img.shields.io/badge/-used-red)
+- ``signal`` (man 2 signal) ![used](https://img.shields.io/badge/-used-red)
 - ``stat`` (__xstat) (man 2 stat)
 - ``lstat`` (__lxstat) (man 2 lstat)
 - ``fstat`` (__fxstat) (man 2 fstat)
-- ``strtok`` (man 3 strtok) -> (https://img.shields.io/badge/-used-red)
-- ``wait`` (man 2 wait) -> (https://img.shields.io/badge/-used-red)
+- ``strtok`` (man 3 strtok) ![used](https://img.shields.io/badge/-used-red)
+- ``wait`` (man 2 wait) ![used](https://img.shields.io/badge/-used-red)
 - ``waitpid`` (man 2 waitpid)
 - ``wait3`` (man 2 wait3)
 - ``wait4`` (man 2 wait4)
-- ``write`` (man 2 write) -> (https://img.shields.io/badge/-used-red)
+- ``write`` (man 2 write) ![used](https://img.shields.io/badge/-used-red)
 
 ***
 
 ### REQUIREMENTS
 
-simple_shell has been running with __*Ubuntu 20.04.4 LTS Linux version*__, and has been compiling with the GNU compiler collection __*gcc 9.4.0*__, with flags ``-Wall, -Werror, -Wextra, and -pedantic``.
+simple_shell has been running with __*Ubuntu 20.04.4 LTS Linux version*__, and has been compiling with the GNU compiler collection __*GCC 9.4.0*__, with flags ``-Wall, -Werror, -Wextra, and -pedantic``.
 
 ***
 
