@@ -120,7 +120,7 @@ To get a representation of this project, you have to do these following steps :
 
 ### SOME EXAMPLES
 
-``
+```
 root@user-name:~/holbertonschool-simple_shell# ./hsh
 
 $ (enter your command here, for example ->  ls)
@@ -164,8 +164,7 @@ root@user-name:~/holbertonschool-simple_shell# echo "/bin/ls" | ./hsh
 AUTHORS  README.md  execve.c  freegrid.c  getenv.c  getpath.c  hack  hsh  man_1_simple_shell  pidmax.sh  printenv.c  readcmd.c  shell  shell.h  sign.c  split.c  splitenv.c  struse.c  super_shell.c  testingcode
 
 root@user-name:~/holbertonschool-simple_shell#
-
-``
+```
 
 ***
 
