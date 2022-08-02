@@ -20,7 +20,7 @@ int main(void)
 			write(1, "$ ", 2);
 
 		line = func_read();
-		if (line == NULL || (_strcmp(line, "exit") == 0))
+		if (line == NULL || (_strcmp(line, "exit") == 2))
 		{
 			free(line);
 			return (0);
