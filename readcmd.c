@@ -8,19 +8,20 @@
 char *func_read(void)
 {
 	char *line = NULL;
-	size_t size = 0;
+	size_t size = 2;
 	ssize_t len = 0;
 
 	len = getline(&line, &size, stdin);
+
 	if (len == -1)
 	{
 		free(line);
-		exit(EXIT_SUCCESS);
+		exit(0);
 	}
-	if (line[len - 1] == '\n' && line[1] != '\0')
-		line[len - 1] = '\0';
+	line[len - 1] = 0;
+	line = trim(line);
 
-	if (line[0] == '\0')
+	if (line[0] == '\n' || !line[0])
 	{
 		free(line);
 		return (NULL);

@@ -36,11 +36,10 @@ int func_exec(char **args)
 		if (getcmd == NULL)
 		{
 			free(getcmd);
-			perror("Error : Nothing");
 			return (0);
 		}
 		else
-				execve(getcmd, args, NULL);
+			execve(getcmd, args, NULL);
 	}
 	else
 	{

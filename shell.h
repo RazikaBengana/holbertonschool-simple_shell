@@ -37,6 +37,7 @@ char *get_path(char *getcmd);
 void _printenv(void);
 void ctrl_c(int signal);
 char **split_env(char *path);
+char *trim(char *str);
 
 char *_strtok(char *str, const char *tok);
 unsigned int check_delim(char c, const char *str);
