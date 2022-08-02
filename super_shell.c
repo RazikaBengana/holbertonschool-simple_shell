@@ -23,7 +23,7 @@ int main(void)
 		if (line == NULL || (_strcmp(line, "exit") == 0))
 		{
 			free(line);
-			exit(2);
+			exit(0, 2);
 		}
 		else if (_strcmp(line, "env") == 0)
 		{
