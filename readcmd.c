@@ -8,7 +8,7 @@
 char *func_read(void)
 {
 	char *line = NULL;
-	size_t size = 2;
+	size_t size = 0;
 	ssize_t len = 0;
 
 	len = getline(&line, &size, stdin);
