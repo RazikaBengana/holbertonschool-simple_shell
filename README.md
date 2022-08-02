@@ -6,6 +6,8 @@
 ![Ubuntu](https://img.shields.io/badge/-Ubuntu%2020.04.4-orange)
 ![C language](https://img.shields.io/badge/-C%20language-yellow)
 ![Vim](https://img.shields.io/badge/-Vim-yellowgreen)
+![simple_shell project](https://img.shields.io/badge/-simple__shell-blue)
+![holbertonschool](https://img.shields.io/badge/-Holberton%20School-red)
 
 # simple_shell :
 # a simple recreation of the command-line interpreter for the Unix-like operating system
@@ -112,11 +114,58 @@ To get a representation of this project, you have to do these following steps :
 - Go to the directory of this repository :``cd simple_shell``
 - Compile it : ``gcc -Wall -Werror -Wextra -pedantic *.c -o hsh``
 - Run this shell in interactive mode : ``prompt$ ./hsh``
-- Either, run it in non-interactive mode : example -> ``echo "/bin/ls" | .hsh``
+- Either, run it in non-interactive mode : ``prompt$ echo "/bin/ls" | .hsh``
 
 ***
 
 ### SOME EXAMPLES
+
+``
+root@user-name:~/holbertonschool-simple_shell# ./hsh
+
+$ (enter your command here, for example ->  ls)
+$ AUTHORS  README.md  execve.c  freegrid.c  getenv.c  getpath.c  hack  hsh  man_1_simple_shell  pidmax.sh  printenv.c  readcmd.c  shell  shell.h  sign.c  split.c  splitenv.c  struse.c  super_shell.c  testingcode
+
+$ pwd
+$ /root/holbertonschool-simple_shell
+
+$ ls -al
+total 128
+drwxr-xr-x  5 root root  4096 Aug  1 15:43 .
+drwxr-xr-x 15 root root  4096 Aug  1 15:28 ..
+drwxr-xr-x  8 root root  4096 Aug  1 15:43 .git
+-rw-r--r--  1 root root   224 Jul 29 12:54 AUTHORS
+-rw-r--r--  1 root root  6047 Aug  1 15:43 README.md
+-rw-r--r--  1 root root   660 Jul 29 14:40 execve.c
+-rw-r--r--  1 root root   277 Jul 29 14:40 freegrid.c
+-rw-r--r--  1 root root   333 Jul 29 14:40 getenv.c
+-rw-r--r--  1 root root   665 Jul 29 14:40 getpath.c
+drwxr-xr-x  2 root root  4096 Jul 29 12:54 hack
+-rwxr-xr-x  1 root root 18208 Aug  1 11:14 hsh
+-rw-r--r--  1 root root   452 Jul 28 16:00 man_1_simple_shell
+-rwxr-xr-x  1 root root    42 Jul 26 11:11 pidmax.sh
+-rw-r--r--  1 root root   257 Jul 29 14:40 printenv.c
+-rw-r--r--  1 root root   449 Aug  1 11:01 readcmd.c
+-rwxr-xr-x  1 root root 18256 Jul 29 14:40 shell
+-rw-r--r--  1 root root  1101 Jul 29 14:40 shell.h
+-rw-r--r--  1 root root   164 Aug  1 10:27 sign.c
+-rw-r--r--  1 root root   520 Aug  1 11:14 split.c
+-rw-r--r--  1 root root   475 Jul 29 14:40 splitenv.c
+-rw-r--r--  1 root root  1195 Jul 29 14:40 struse.c
+-rw-r--r--  1 root root   693 Aug  1 11:14 super_shell.c
+drwxr-xr-x  4 root root  4096 Jul 29 14:40 testingcode
+
+$
+
+^D
+(ctrl + D to quit the program)
+
+root@user-name:~/holbertonschool-simple_shell# echo "/bin/ls" | ./hsh
+AUTHORS  README.md  execve.c  freegrid.c  getenv.c  getpath.c  hack  hsh  man_1_simple_shell  pidmax.sh  printenv.c  readcmd.c  shell  shell.h  sign.c  split.c  splitenv.c  struse.c  super_shell.c  testingcode
+
+root@user-name:~/holbertonschool-simple_shell#
+
+``
 
 ***
 
