@@ -1,5 +1,10 @@
 #include "shell.h"
 
+/**
+ * trim - function that trim string
+ * @str: String to trim
+ * Return: Char
+ */
 char *trim(char *str)
 {
 	char *front = str;
