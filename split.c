@@ -28,6 +28,10 @@ char **func_split(char *line)
 		i++;
 		token = strtok(NULL, " ");
 	}
-	tab_token[i] = NULL;
+	while (tab_token[i] = NULL)
+	{
+		free(tab_token[i]);
+		free(tab_token);
+	}
 	return (tab_token);
 }
