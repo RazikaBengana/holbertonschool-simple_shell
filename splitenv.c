@@ -16,6 +16,7 @@ char **split_env(char *path)
 	if (tab_path == NULL)
 	{
 		perror("Error : malloc");
+		free(tab_path);
 		exit(1);
 	}
 
