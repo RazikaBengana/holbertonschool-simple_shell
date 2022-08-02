@@ -36,7 +36,7 @@ int func_exec(char **args)
 		if (getcmd == NULL)
 		{
 			free(getcmd);
-			return (0);
+			exit(EXIT_SUCCESS);
 		}
 		else
 			execve(getcmd, args, NULL);
