@@ -14,7 +14,7 @@ char *get_env(char *getcmd)
 	for (i = 0; environ[i]; i++)
 	{
 		if (_strncmp(environ[i], getcmd, size) == 0)
-			return (environ[i] + size + 1);
+			return (environ[i] + size);
 	}
 	return (NULL);
 }
