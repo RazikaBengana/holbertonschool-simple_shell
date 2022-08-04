@@ -24,7 +24,7 @@ char *func_read(void)
 
 	if (line[0] == '\n' || !line[0])
 	{
-		printf("          ");
+		free(line);
 		return (NULL);
 	}
 	return (line);
