@@ -15,7 +15,6 @@ char *func_read(void)
 
 	if (len == -1)
 	{
-		write(1, "\n", 1);
 		free(line);
 		exit(0);
 	}
