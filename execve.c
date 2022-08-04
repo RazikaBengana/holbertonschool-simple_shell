@@ -15,7 +15,7 @@ int func_exec(char **args)
 	my_pid = fork();
 	if (my_pid == -1)
 	{
-		perror("Error : Nothing");
+		perror("Error : fork");
 	}
 
 	if (my_pid == 0)
@@ -36,10 +36,11 @@ int func_exec(char **args)
 		if (getcmd == NULL)
 		{
 			free(getcmd);
+			perror("Error : execve");
 			return (0);
 		}
 		else
-			execve(getcmd, args, NULL);
+				execve(getcmd, args, NULL);
 	}
 	else
 	{

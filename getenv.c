@@ -10,21 +10,11 @@ char *get_env(char *getcmd)
 {
 	int i, size;
 
-	if (getcmd != NULL || getcmd[0] != '\0')
+	size = _strlen(getcmd);
+	for (i = 0; environ[i]; i++)
 	{
-		i = 0;
-		while (environ[i] != NULL)
-		{
-			size = 0;
-			while (*getcmd == environ[i][size] && *getcmd != '\0')
-			{
-				getcmd++;
-				size++;
-			}
-			if ((environ[i][size]) == '=')
-				return (&environ[i][size + 1]);
-			i++;
-		}
+		if (_strncmp(environ[i], getcmd, size) == 0)
+			return (environ[i] + size + 1);
 	}
 	return (NULL);
 }
