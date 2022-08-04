@@ -8,6 +8,7 @@
 ![Vim](https://img.shields.io/badge/-Vim-yellowgreen)
 ![simple_shell project](https://img.shields.io/badge/-simple__shell-blue)
 ![holbertonschool](https://img.shields.io/badge/-Holberton%20School-red)
+![Linux](https://img.shields.io/badge/-Linux-lightgrey)
 
 # simple_shell :
 # a simple recreation of the command-line interpreter for the Unix-like operating system
@@ -32,7 +33,7 @@ __*simple_shell*__ is a command-line interpreter that provides a command line us
 
 The simple_shell project has been inspired by the real shell written by __*Ken Thompson*__ in 1971 (the first version of it was called "the Thompson shell").
 
-It controls the execution of the system using shell scripts, and allows users to do multiple limited tasks. All users interact with this simple_shell by using a terminal emulator.
+It controls the execution of the operating system using shell scripts, and allows users to do multiple limited tasks, by entering some commands. All users interact with this simple_shell by using a terminal emulator.
 
 The goal of this project was to make us understand how the shell works by rewriting our own version.
 
@@ -40,24 +41,25 @@ The goal of this project was to make us understand how the shell works by rewrit
 
 ### STRUCTURE OF THE PROJECT
 
-- __*README.md*__ : Informations about this repository
+- __*README.md*__ : informations about this repository
 - __*AUTHORS*__ : contributors to this repository
-- __*man_1_simple_shell*__ : Manual page for the simple_shell
+- __*man_1_simple_shell*__ : manual page for the simple_shell
 - __*shell.h*__ : header file including all the prototypes of functions used
-- __*execve.c*__ :
-- __*freegrid.c*__ :
-- __*getenv.c*__ :
-- __*getpath.c*__ :
-- __*pidmax.sh*__ :
-- __*printenv.c*__ :
-- __*readcmd.c*__ :
-- __*sign.c*__ :
-- __*split.c*__ :
-- __*splitenv.c*__ :
-- __*struse.c*__ :
-- __*super_shell.c*__ :
+- __*execve.c*__ : file which contains the function related to the commands executions
+- __*freegrid.c*__ : file which contains the function that frees dimensional grids
+- __*getenv.c*__ : file which contains the function that gets the environment variables
+- __*getpath.c*__ : file which contains the function that prints the PATH variable environment
+- __*printenv.c*__ : file which contains the function that prints the environment variables
+- __*readcmd.c*__ : file which contains the function that reads a command input by the user, and displays it
+- __*sign.c*__ : file which contains the signal program that permits to re-prompt
+- __*split.c*__ : file which contains the function that tokenizes the string of a command
+- __*splitenv.c*__ : file which contains the function that tokenizes the PATH variable environment
+- __*struse.c*__ : file which contains functions that concatenates and compares strings that we need to use
+- __*super_shell.c*__ : main file for compilation
+- __*trim.c*__ : file which contains the function that trims, separates the string
 
-For our codes, we used the Betty style. For more information, see [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+For our codes, we used Betty style.
+For more information, see [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 
 ***
 
