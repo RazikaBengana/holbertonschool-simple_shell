@@ -42,20 +42,35 @@ The goal of this project was to make us understand how the shell works by rewrit
 ### STRUCTURE OF THE PROJECT
 
 - __*README.md*__ : informations about this repository
+
 - __*AUTHORS*__ : contributors to this repository
+
 - __*man_1_simple_shell*__ : manual page for the simple_shell
+
 - __*shell.h*__ : header file including all the prototypes of functions used
+
 - __*execve.c*__ : file which contains the function related to the commands executions
+
 - __*freegrid.c*__ : file which contains the function that frees dimensional grids
+
 - __*getenv.c*__ : file which contains the function that gets the environment variables
+
 - __*getpath.c*__ : file which contains the function that prints the PATH variable environment
+
 - __*printenv.c*__ : file which contains the function that prints the environment variables
+
 - __*readcmd.c*__ : file which contains the function that reads a command input by the user, and displays it
+
 - __*sign.c*__ : file which contains the signal program that permits to re-prompt
+
 - __*split.c*__ : file which contains the function that tokenizes the string of a command
+
 - __*splitenv.c*__ : file which contains the function that tokenizes the PATH variable environment
+
 - __*struse.c*__ : file which contains functions that concatenates and compares strings that we need to use
+
 - __*super_shell.c*__ : main file for compilation
+
 - __*trim.c*__ : file which contains the function that trims, separates the string
 
 For our codes, we used Betty style.
