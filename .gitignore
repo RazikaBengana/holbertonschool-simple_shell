@@ -51,5 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-dir_to_ignore/
-folder_to_ignore/
+hack/
