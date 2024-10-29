@@ -516,7 +516,7 @@ hsh main.c shell.c
 
 <br>
 
-- `Chong Leang Ueng` &nbsp; :point_right: `Github` : [ChongLeang UENG](https://github.com/ChongLeangUENG)
+- `Chong Leang Ueng` &nbsp; :point_right: `Github` : [ChongLeangUENG](https://github.com/ChongLeangUENG)
 
 <br>
 
