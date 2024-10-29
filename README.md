@@ -27,7 +27,7 @@
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#computer-requirements">Requirements</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#bulb-more-info">More Info</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#package-installation">Installation</a> •
-<a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#keyboard-basic-usage">Basic usage</a> •
+<a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#keyboard-basic-usage">Basic Usage</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#mag_right-resources">Resources</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#bust_in_silhouette-authors">Authors</a> •
 <a href="https://github.com/RazikaBengana/holbertonschool-simple_shell#octocat-license">License</a>
@@ -124,7 +124,7 @@ Write a simple `UNIX` command interpreter.
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :memo: Learning objectives
+## :memo: Learning Objectives
 
 <br>
 
@@ -232,7 +232,7 @@ If you clone/fork/whatever a project repository with the same name before the se
 
 - Unless specified otherwise, your program **must have the exact same output** as `sh` (`/bin/sh`) as well as the exact same error output.
 
-    - The only difference is when you print an error, the name of the program must be equivalent to your `argv[0]` (See below).
+  - The only difference is when you print an error, the name of the program must be equivalent to your `argv[0]` (See below).
 
 <br>
 <br>
@@ -404,7 +404,7 @@ git clone https://github.com/RazikaBengana/holbertonschool-simple_shell.git
 
 - To set up the `simple shell`, you need to compile the source files using [GCC](https://www.guru99.com/c-gcc-install.html)
 
-    - This will create an executable file named `hsh` in the project directory:
+  - This will create an executable file named `hsh` in the project directory:
 
 <br>
 
@@ -417,7 +417,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 <!-- ------------------------------------------------------------------------------------------------- -->
 
-## :keyboard: Basic usage
+## :keyboard: Basic Usage
 
 <br>
 <br>
@@ -432,7 +432,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 - Start the shell by executing the `hsh` file
 
-    - You will see a **prompt** where you can type commands:
+  - You will see a **prompt** where you can type commands:
 
 <br>
 
@@ -516,9 +516,11 @@ hsh main.c shell.c
 
 <br>
 
-**${\color{blue}Chong Leang \space Ueng}$** ---> `Github` : [ChongLeang UENG](https://github.com/ChongLeangUENG)
+- `Chong Leang Ueng` &nbsp; :point_right: `Github` : [ChongLeang UENG](https://github.com/ChongLeangUENG)
 
-**${\color{blue}Razika \space Bengana}$**
+<br>
+
+- `Razika Bengana`
 
 <br>
 <br>
